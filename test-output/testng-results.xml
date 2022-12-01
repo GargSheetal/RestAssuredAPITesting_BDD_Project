@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-15T14:10:40 EST" name="Default suite" finished-at="2022-11-15T14:10:53 EST" duration-ms="12770">
+    <groups>
+    </groups>
+    <test started-at="2022-11-15T14:10:40 EST" name="Default test" finished-at="2022-11-15T14:10:53 EST" duration-ms="12770">
+      <class name="dataDrivenRestAssured.DataDrivenTestUsingExcelData">
+        <test-method signature="testPostRequestWithExcelData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenRestAssured.DataDrivenTestUsingExcelData@5e0826e7]" started-at="2022-11-15T14:10:45 EST" name="testPostRequestWithExcelData" data-provider="dataForExcelTest" finished-at="2022-11-15T14:10:52 EST" duration-ms="7111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Albert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chuck]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequestWithExcelData -->
+        <test-method signature="testPostRequestWithExcelData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenRestAssured.DataDrivenTestUsingExcelData@5e0826e7]" started-at="2022-11-15T14:10:52 EST" name="testPostRequestWithExcelData" data-provider="dataForExcelTest" finished-at="2022-11-15T14:10:53 EST" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Carie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harper]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequestWithExcelData -->
+      </class> <!-- dataDrivenRestAssured.DataDrivenTestUsingExcelData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
