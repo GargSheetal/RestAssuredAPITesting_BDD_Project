@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDrivenRestAssured.DataDrivenTestUsingExcelData">
+      <class name="in.reqres.restassured.testcases.TC009_GET_AllEmployees">
         <methods>
-          <include name="testPostRequestWithExcelData"/>
+          <include name="getAllEmployees"/>
         </methods>
-      </class> <!-- dataDrivenRestAssured.DataDrivenTestUsingExcelData -->
+      </class> <!-- in.reqres.restassured.testcases.TC009_GET_AllEmployees -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
